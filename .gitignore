@@ -1,0 +1,20 @@
+# Build output
+build/
+out/
+CMakeUserPresets.json
+
+# Generated test matrices (hundreds of MB to GB each)
+data/
+*.bin
+
+# Profiler / disassembly output
+*.sass
+*.ncu-rep
+*.nsys-rep
+
+# IDE files
+.vs/
+.vscode/
+*.sln
+*.vcxproj*
+*.user
